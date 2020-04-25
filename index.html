@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blogger</title>
+
+    <!-- OwlCarousel -->
+
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+
     <!-- Custom css -->
     <link rel="stylesheet" href="./css/Style.css" />
     <link
@@ -54,8 +60,42 @@
           <button class="btn">Explore</button>
         </div>
       </section>
-
       <!--..........x.............. Site tittles..............x............... -->
+
+      <!--........................ Blog Carousel............................. -->
+      <section>
+        <div class="blog">
+          <div class="container">
+            <div class="owl-carousel owl-theme blog-post">
+              <div class="blog-content">
+                <img src="./assets/Blog-post/post-1.jpg" alt="post-1" />
+                <div class="blog-tittle">
+                  <h3>Get ready to satisfy your taste buds</h3>
+                  <button class="btn btn-blog">Food</button>
+                  <span>2 minutes</span>
+                </div>
+              </div>
+              <div class="blog-content">
+                <img src="./assets/Blog-post/post-2.jpg" alt="post-1" />
+                <div class="blog-tittle">
+                  <h3>visit the most attractive places</h3>
+                  <button class="btn btn-blog">Exautics</button>
+                  <span>2 minutes</span>
+                </div>
+              </div>
+              <div class="blog-content">
+                <img src="./assets/Blog-post/post-3.jpg" alt="post-1" />
+                <div class="blog-tittle">
+                  <h3>A place full of oportunities</h3>
+                  <button class="btn btn-blog">Business</button>
+                  <span>2 minutes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--............x............ Blog Carousel..............x............... -->
     </main>
 
     <!--  ...........x...............Main site section ...........x........-->
@@ -63,6 +103,10 @@
     <!-- Causton js file -->
     <!-- JQuery library -->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+
+    <!-- OwlCarousel js-->
+    <script src="./js/owl.carousel.min.js"></script>
+
     <script src="./js/main.js"></script>
   </body>
 </html>
