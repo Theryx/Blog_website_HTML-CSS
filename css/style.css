@@ -66,6 +66,9 @@ button.btn {
 span {
   font-family: var(--Abel);
 }
+.container {
+  margin: 0 5vw;
+}
 /* ...........x.........Global classes...........x.......... */
 
 /* .......................NavBar.......................... */
@@ -184,6 +187,10 @@ main .blog {
   background-position: right;
   height: 100vh;
   width: 100%;
+  background-size: 75%;
+}
+main .blog .blog-post {
+  padding-top: 5rem;
 }
 
 main .blog-post .blog-content {
@@ -191,7 +198,7 @@ main .blog-post .blog-content {
   flex-direction: column;
   text-align: center;
   width: 80%;
-  margin: 8rem 3rem;
+  margin: 3rem 2rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 main .blog-content .blog-tittle {
@@ -205,6 +212,14 @@ main .blog-content .btn-blog {
 
 main .blog-content span {
   display: block;
+}
+
+section .container .owl-nav {
+  position: absolute;
+  top: 0px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 3rem;
 }
 /* ............x...........Blog-Carousel.............x............. */
 
