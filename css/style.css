@@ -152,6 +152,36 @@ p {
 .nav .social i:hover {
   color: #a1c4cf;
 }
+.sidebar .newsletter {
+  padding-top: 10rem;
+}
+.sidebar .newsletter .form-element {
+  padding: 0.5rem 2rem;
+}
+
+.sidebar .newsletter .input-element {
+  width: 80%;
+  height: 1.9rem;
+  padding: 0.3rem 0.5rem;
+  font-family: var(--Lexend);
+  font-size: 1rem;
+}
+.sidebar .newsletter .form-btn {
+  border-radius: 0;
+  padding: 0.8rem 32%;
+  margin: 1rem 0;
+  background: var(--sky);
+}
+.sidebar .popular-tags {
+  padding: 5rem 0;
+}
+.sidebar .popular-tags .tags .tag {
+  background: var(--sky);
+  padding: 0.4rem 1rem;
+  border-radius: 3rem;
+  margin: 0.4rem 0.6rem;
+}
+
 /* ...............x........NavBar.............x............. */
 /* .......................Main content.......................... */
 
@@ -329,6 +359,43 @@ main .post-content .post-tittle a {
 /* ------------x-----------Site Bar -------------x--------------*/
 
 /* ...............x........Main content.............x............. */
+/* .......................Footer.......................... */
+footer.footer {
+  height: 100%;
+  background: var(--bg-color);
+  position: relative;
+}
+footer.footer .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+footer.footer .container > div {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 3rem 0.9rem;
+}
+footer.footer .container h2 {
+  color: var(--white);
+}
+footer.footer .newsletter .form-element {
+  background: black;
+  display: inline-block;
+}
+footer.footer .newsletter .form-element input {
+  padding: 0.5rem 0.7rem;
+  background: transparent;
+  border: none;
+  color: var(--white);
+  font-family: var(--Josefin);
+  font-size: 1rem;
+  width: 74%;
+}
+footer.footer .newsletter .form-element span {
+  background: var(--sky);
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+}
+/* ...........X............Footer.............X............. */
 
 /* ........................View port less than or equal 720 px ....................*/
 @media only screen and (max-width: 750px) {
