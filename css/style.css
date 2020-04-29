@@ -120,7 +120,7 @@ p {
 }
 
 .nav .nav-items .nav-link {
-  padding: 1.6rem 1rem;
+  padding: 1rem 1rem;
   font-size: 1.1rem;
   position: relative;
   font-family: var(--Abel);
@@ -273,8 +273,60 @@ main .post-content .post-tittle a {
   padding: 0.7rem 1.5rem;
   background: var(--sky);
 }
+.pagination {
+  justify-content: center;
+  color: var(--text-gray);
+  margin: 4rem 0;
+}
+.pagination a {
+  padding: 0.6rem 0.9rem;
+  border-radius: 2rem;
+  margin: 0.3rem;
+  font-family: var(--Lexend);
+}
+.pagination .pages {
+  background: var(--text-gray);
+  color: var(--white);
+}
 
 /* ------------x-----------Site content -------------x--------------*/
+/* -----------------------Site Bar ---------------------------*/
+.sidebar .categorie-list {
+  font-family: var(--Livvic);
+}
+
+.sidebar .categorie-list .list-items {
+  background: var(--sky);
+  padding: 0.4rem 1rem;
+  margin: 0.8rem 0;
+  border-radius: 3rem;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar .categorie-list .list-items a {
+  color: black;
+}
+
+.sidebar .popular-post .post-content {
+  padding: 1rem 0;
+}
+.sidebar .popular-post h2 {
+  padding-top: 8rem;
+}
+
+.sidebar .popular-post .post-info {
+  padding: 0.4rem 0.1rem !important;
+  bottom: 0rem !important;
+  left: 1.5rem !important;
+  border-radius: 0rem !important;
+  background: var(--white) !important;
+}
+.sidebar .popular-post .post-tittle a {
+  font-size: 1rem;
+}
+/* ------------x-----------Site Bar -------------x--------------*/
 
 /* ...............x........Main content.............x............. */
 
