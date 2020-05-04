@@ -395,6 +395,35 @@ footer.footer .newsletter .form-element span {
   padding: 0.5rem 0.7rem;
   cursor: pointer;
 }
+
+footer.footer .instagram div > img {
+  display: inline-block;
+  width: 25%;
+  height: 50%;
+  margin: 0.3rem 0.4rem;
+}
+
+footer.footer .follow div i {
+  color: var(--white);
+  padding: 0.4rem;
+}
+footer.footer .right {
+  justify-content: center;
+  font-family: var(--Josefin);
+}
+
+footer.footer .move-up {
+  position: absolute;
+  right: 6%;
+  top: 50%;
+}
+footer.footer .move-up span {
+  color: var(--midnight);
+}
+
+footer.footer .move-up span:hover {
+  color: var(--white);
+}
 /* ...........X............Footer.............X............. */
 
 /* ........................View port less than or equal 720 px ....................*/

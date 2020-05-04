@@ -20,4 +20,15 @@ $(document).ready(function () {
       $(".owl-navigation .owl-nav-next"),
     ],
   });
+
+  // Move up scroll
+
+  $(".move-up spa").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: 0,
+      },
+      1000
+    );
+  });
 });
